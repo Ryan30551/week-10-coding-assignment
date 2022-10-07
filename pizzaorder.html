@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap.min (1).css">
+    <title>Week 10 Coding Assignment</title>
+</head>
+
+<body>
+    <h1>Week 10 Homework</h1>
+<!--Form for Placing order-->
+
+<h2>Enter Your Information Below</h2>
+
+<form> 
+    <label for="Name">Name</label>
+    <input type="text" id="Name" class="form-control">
+
+    <label for="size">Pizza Size</label>
+    <input type="text" id="size" class="form-control">
+
+    <label for="toppings">Toppings</label>
+    <input type="text" id="toppings" class="form-control">
+
+    <br>
+
+    <button id="order-button">Submit Order</button>
+    <br>
+
+</form>
+
+<br>
+
+     <table id="orders" class= "table table-dark table table-striped table table-bordered table table-hover">
+        <tr>
+            <th>Order Name</th>
+            <th>Size</th>
+            <th>Toppings</th>
+        </tr>
+        <tr>
+            <td>Ryan</td>
+            <td>Large</td>
+            <td>Peperoni, Mushroom</td>
+        </tr>
+    </table>
+
+<script src="pizzaorder.js"></script>
+
+</body>
+
+</html>
