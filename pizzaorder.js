@@ -1,7 +1,7 @@
 function newOrder(){
-    let name = document.getElementById("customername").value;
-    let size = document.getElementById("pizzasize").value;
-    let toppings = document.getElementById("pizzatoppings").value;
+    let name = document.getElementById("Name").value;
+    let size = document.getElementById("Pizza Size").value;
+    let toppings = document.getElementById("toppings").value;
 
     let orders = document.getElementById("orders");
     
